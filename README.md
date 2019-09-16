@@ -93,7 +93,7 @@ Access the website https://www.qnamaker.ai/ using your preferable web browser
 * 2.2 Login
 Login in the QnA Makaer with your Azure Credentials that you already have or just created on the previous step.
 
-<p align="center">
+Subscription<p align="center">
   <img src="images/002.jpg" alt="drawing" width="600"/>
 </p>
 
@@ -126,4 +126,20 @@ Include a chit-chat personality to make your knowledge more engaging with your u
   <img src="images/005.jpg" alt="drawing" width="600"/>
 </p>
 
+Use the following reference for your QnA Maker:
 
+For the Azure Search pricing Tier, check this [page](https://azure.microsoft.com/en-us/pricing/details/search/) for details.
+
+| Setting       | Suggested value |  Description   |
+| ------------- |  -------------  |  -------------  |            
+| QnA Maker   |  Content Cell   |                 |
+| Subscription  |  Content Cell   |                 |
+| Pricing tier  |  Content Cell   |                 |
+| Resource Group  |  Content Cell   |                 |
+| Resource Group Location  |  Content Cell   |                 |
+| Azure Search Price Tier  |  Content Cell   |                 |
+| App name  |  Content Cell   |                 |
+| Bot template  |  Content Cell   |                 |
+| App service plan/Location  |  Content Cell   |                 |
+| Application Insights  |  Content Cell   |                 |
+| Microsoft App ID and password  |  Content Cell   |                 |
