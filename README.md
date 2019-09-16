@@ -1,5 +1,3 @@
-# Cognitive Services Directory - QnAMaker
-Cognitive Services Directory using QnAMaker and Bing Search
 
 # SQL-Managed Instance / Disaster Recovery Architecture 
 # Step by Step Implementation
@@ -63,3 +61,30 @@ Now CLick on `Review + Create`.
 On the moment to create your network for the SQL-MI, is recommend to enable the DDoS Standard. 
 Azure DDoS basic protection is integrated into the Azure platform by default and at no additional cost. 
 Azure DDoS standard protection is a premium paid service that offers enhanced DDoS mitigation capabilities via adaptive tuning, attack notification, and telemetry to protect against the impacts of a DDoS attack for all protected resources within this virtual network.
+
+
+
+# Cognitive Services Directory - QnAMaker
+Cognitive Services Directory using QnAMaker and Bing Search
+
+* Before to Start
+Before to dig in on the details on the QnA Bot Services, please take time to explore the Azure Cognitive Services [here](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/).
+
+* Pre Requisite:
+•	Have an Azure Subscription (See here how to create one – you can start with a free subscription);
+•	Install Bot Framework Emulator version 4;
+
+## Step 1: Check the Subscription
+
+* 1.1 Subscription
+In this scenario, a subscription named “Visual Studio Enterprise” was created.
+As soon as you login at your azure subscription, on the website: https://ms.portal.azure.com, click on Resource Groups (left Blade) and see that it’s a empty page (leave this as is for now)
+
+<p align="center">
+  <img src="Images/001.jpg" alt="drawing" width="600"/>
+</p>
+
+
+
+
+
