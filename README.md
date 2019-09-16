@@ -85,6 +85,45 @@ As soon as you login at your azure subscription, on the website: https://ms.port
 </p>
 
 
+## Step 2: Access the QnA Maker
 
+* 2.1 Access the QnA Maker website
+Access the website https://www.qnamaker.ai/ using your preferable web browser 
+
+* 2.2 Login
+Login in the QnA Makaer with your Azure Credentials that you already have or just created on the previous step.
+
+<p align="center">
+  <img src="images/002.jpg" alt="drawing" width="600"/>
+</p>
+
+## Step 3: Creating a Knowledge bases
+
+* 3.1 Knowledge bases
+Click on “My Knowledge bases” and see that you have no KB (Knowledge bases) created yet.
+
+<p align="center">
+  <img src="images/003.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* 3.2 Click on “Create a knowledge base” Tab
+
+<p align="center">
+  <img src="images/004.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* 3.4 Create a QnA service
+Click on “Create a QnA service” blue bottom.
+The QnA Maker API service portal makes it simple to add your existing data sources when creating a knowledge base. You can create a new QnA Maker knowledge base from the following document types:
+•	FAQ pages
+•	Products manuals
+•	Structured documents
+Include a chit-chat personality to make your knowledge more engaging with your users.
+
+<p align="center">
+  <img src="images/005.jpg" alt="drawing" width="600"/>
+</p>
 
 
