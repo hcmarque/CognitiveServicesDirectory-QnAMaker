@@ -81,7 +81,7 @@ In this scenario, a subscription named “Visual Studio Enterprise” was create
 As soon as you login at your azure subscription, on the website: https://ms.portal.azure.com, click on Resource Groups (left Blade) and see that it’s a empty page (leave this as is for now)
 
 <p align="center">
-  <img src="Images/001.jpg" alt="drawing" width="600"/>
+  <img src="images/001.jpg" alt="drawing" width="600"/>
 </p>
 
 
