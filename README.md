@@ -326,3 +326,54 @@ In the example below, 2 questions were made. Check the answers and if is needed,
 </p>
 
 
+## Step 6: Integration with another Channels (Telegram)
+
+Another possibility here is to integrate with Telegram, for example. 
+
+* Step 6.1 Backing to the `Channels`, select Telegram (under `more channels`)
+
+<p align="center">
+  <img src="images/035.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* Step 6.2 Create Telegram
+
+If you don’t have one, create your Telegram account using your mobile phone number. 
+I will not cover these steps but basically, download the Telegram from your Mobile Marketplace, install and follow the steps to activate based on the SMS confirmation number that you will receive.
+
+
+* Step 6.3 Bot Father
+Create a new Telegram bot using the Bot Father. See the picture below. In your Telegram, look for `BotFather`.
+
+<p align="center">
+  <img src="images/boot01.png" alt="drawing" width="600"/>
+</p>
+
+* Step 6.4 Newbot
+To create a new Telegram bot, send command `/newbot`.
+
+<p align="center">
+  <img src="images/boot02.png" alt="drawing" width="600"/>
+</p>
+
+* Step 6.5 Give a name
+Give the Telegram bot a friendly name. In this scenario, I’ve used the name qna-github-test.
+
+<p align="center">
+  <img src="images/boot03.png" alt="drawing" width="600"/>
+</p>
+
+* Step 6.6 Username
+Give the Telegram bot a unique username. In this scenario, I’ve used the name qna-github-test-bot
+
+<p align="center">
+  <img src="images/boot04.png" alt="drawing" width="600"/>
+</p>
+
+* Step 6.7 Token
+Paste the token you copied previously into the Access Token field and click Save.
+
+<p align="center">
+  <img src="images/boot05.png" alt="drawing" width="600"/>
+</p>
