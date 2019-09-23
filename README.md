@@ -78,3 +78,34 @@ For the Azure Search pricing Tier, check this [page](https://azure.microsoft.com
 | App service plan/Location  |  Your app service plan   |         Select an [app service plan](https://azure.microsoft.com/pricing/details/app-service/plans/) location. Your location choice can be any location listed, though it's often best to choose the same location as the bot service. |
 | Application Insights  |  On  |        Decide if you want to turn [Application Insights](https://docs.microsoft.com/en-us/bot-framework/bot-service-manage-analytics) On or Off. If you select On, you must also specify a regional location. Your location choice can be any location listed, though it's often best to choose the same location as the bot service.|
 | Microsoft App ID and password  |  Auto create App ID and password   |  Use this option if you need to manually enter a Microsoft App ID and password. Otherwise, a new Microsoft App ID and password will be created for you in the bot creation process. When creating an app registration manually for the Bot Service, please ensure that the supported account types is set to ‘Accounts in any organizational directory’ or ‘Accounts in any organizational directory and personal Microsoft accounts (e.g. Skype, Outlook.com, Xbox, etc.)’|
+
+
+* 3.5 Check the Deployment in progress
+On the top right corner a message will appear saying “Deployment in progress” – This would take around 10 minutes to have your QnA maker done.
+
+<p align="center">
+  <img src="images/006.jpg" alt="drawing" width="600"/>
+</p>
+
+
+Click on “Deployment in progress” and wait until a full message saying “Your deployment is complete”. 
+
+<p align="center">
+  <img src="images/007.jpg" alt="drawing" width="600"/>
+</p>
+
+* 3.6 Back to the Resource Group
+Now, back to your Resource Group to check the Resources that were created.
+
+<p align="center">
+  <img src="images/008.jpg" alt="drawing" width="600"/>
+</p>
+
+Click on Resource Group that you created to check the resources there, which includes the Cognitive Service and Search Service.
+
+<p align="center">
+  <img src="images/009.jpg" alt="drawing" width="600"/>
+</p>
+
+
+
