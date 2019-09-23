@@ -375,5 +375,29 @@ Give the Telegram bot a unique username. In this scenario, I’ve used the name 
 Paste the token you copied previously into the Access Token field and click Save.
 
 <p align="center">
+  <img src="images/image036.png" alt="drawing" width="600"/>
+</p>
+
+* Step 6.8 Ready to start to use your Bot using Telegram
+Now, you can back to your Telegram, find the room that you just created and start to chat!
+
+<p align="center">
   <img src="images/boot05.png" alt="drawing" width="600"/>
 </p>
+
+## Step 7: Bot Framework Emulator
+
+* Step 7.1 Install the ChatBot Emulator
+Now, we will access the ChatBot using the Bot Framework Emulator (V4) that you have to install in your Desktop/Laptop. Find here the page to download the Bot Framework Emulator: https://github.com/Microsoft/BotFramework-Emulator
+
+After the Bot Framework Emulator installed, launch the Bot Framework Emulator at your computer and `login at Azure` using your account used to access the Azure Portal (the same used on the first step of this tutorial)
+
+<p align="center">
+  <img src="images/037.jpg" alt="drawing" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/038.jpg" alt="drawing" width="600"/>
+</p>
+
+
