@@ -2,16 +2,17 @@
 # Cognitive Services - QnAMaker
 Cognitive Services Directory using QnAMaker and Bing Search
 
-* Before to Start
-Before to dig in on the details on the QnA Bot Services, please take time to explore the Azure Cognitive Services [here](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/).
+* Before to Start with the details on the QnA Bot Services, please take time to explore the Azure Cognitive Services [here](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/).
 
 * Pre Requisite:
+
 •	Have an Azure Subscription (See here how to create one – you can start with a free subscription);
 •	Install Bot Framework Emulator version 4;
 
 ## Step 1: Check the Subscription
 
 * 1.1 Subscription
+
 In this scenario, a subscription named `Visual Studio Enterprise` was created.
 As soon as you login at your azure subscription, on the website: https://ms.portal.azure.com, click on Resource Groups (left Blade) and see that it’s a empty page (leave this as is for now)
 
@@ -23,9 +24,11 @@ As soon as you login at your azure subscription, on the website: https://ms.port
 ## Step 2: Access the QnA Maker
 
 * 2.1 Access the `QnA Maker website`
+
 Access the website https://www.qnamaker.ai/ using your preferable web browser 
 
 * 2.2 Login
+
 Login in the QnA Makaer with your Azure Credentials that you already have or just created on the previous step.
 
 Subscription<p align="center">
@@ -35,6 +38,7 @@ Subscription<p align="center">
 ## Step 3: Creating a Knowledge bases
 
 * 3.1 Knowledge bases
+
 Click on `My Knowledge bases` and see that you have no KB (Knowledge bases) created yet.
 
 <p align="center">
@@ -50,6 +54,7 @@ Click on `My Knowledge bases` and see that you have no KB (Knowledge bases) crea
 
 
 * 3.4 Create a QnA service
+
 Click on `Create a QnA service` blue bottom.
 The QnA Maker API service portal makes it simple to add your existing data sources when creating a knowledge base. You can create a new QnA Maker knowledge base from the following document types:
 •	FAQ pages
@@ -81,6 +86,7 @@ For the Azure Search pricing Tier, check this [page](https://azure.microsoft.com
 
 
 * 3.5 Check the Deployment in progress
+
 On the top right corner a message will appear saying `Deployment in progress` – This would take around 10 minutes to have your QnA maker done.
 
 <p align="center">
@@ -95,6 +101,7 @@ Click on `Deployment in progress` and wait until a full message saying `Your dep
 </p>
 
 * 3.6 Back to the Resource Group
+
 Now, back to your Resource Group to check the Resources that were created.
 
 <p align="center">
@@ -110,6 +117,7 @@ Click on `Resource Group` that you created to check the resources there, which i
 ## Step 4: Back to the QnA maker website
 
 * 4.1 Select the Azure QnA service
+
 Back to your QnA maker webpage (your previous browser tab) and check the Step 2. 
 Click the `Refresh` and select the `Microsoft Azure Directory`, your `Azure Subscription` (used to created the QnA Makaer on the step before) and the `Azure QnA service` that you just created.
 
@@ -128,6 +136,7 @@ The `KB` (knowledge base) name is for your reference and you can change it at an
 
 
 * 4.3 Populate your KB
+
 Extract question-and-answer pairs from an online FAQ, product manuals, or other files. Supported formats are .tsv, .pdf, .doc, .docx, .xlsx, containing questions and answers in sequence. Skip this step to add questions and answers manually after creation. The number of sources and file size you can add depends on the QnA service SKU you choose. 
 
 Enter the reference FAQ url on the Link and click `+ Add URL`. In this example, I have included 10 url’s.
@@ -190,6 +199,7 @@ Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, makin
 </p>
 
 * 4.5 Save
+
 Now click in `Save and train` your QnA model.
 
 <p align="center">
@@ -201,6 +211,7 @@ Now click in `Save and train` your QnA model.
 </p>
 
 * 4.6 Test
+
 Let’s test your QnA Model before to publish. Click in -> `Test` (blue button). 
 Ask about AKS to see the answer on the chat window.
 
@@ -209,6 +220,7 @@ Ask about AKS to see the answer on the chat window.
 </p>
 
 * 4.7 Publish
+
 Now is time to test your environment. Click on Publish Tab and then, Publish (blue button)
 
 <p align="center">
@@ -230,6 +242,7 @@ The publish process will take less then 1 minute to be done. A Success page will
 ## Step 5: Create your Bot
 
 * Step 5.1 Click on Create your Bot
+
 Click on `Create your Bot`
 
 <p align="center">
@@ -237,6 +250,7 @@ Click on `Create your Bot`
 </p>
 
 * Step 5.2 Bot Data 
+
 You will be redirect to the ms.azure.portal and click in create after to check the date there. (be sure that you have your qna and bot on the same resource group)
 For this step, we will create a Bo on the Azure Portal (Just click on the Create Bot – Really important to create from here as all parameters will be automatic populated on Azure Portal (as you can see on the picture below (as the QnA Auth Key)
 
@@ -252,6 +266,7 @@ Wait until the deployment is completed.
 </p>
 
 * Step 5.3 Back to Resource Group
+
 It’s time to back to Resource Groups in order to see what you have deployed so far. 
 Click on `Resource Groups` on the left Blade and then on the Resource Group that you created before, in this scenario, I used the name `qna-github-test`.
 
@@ -261,6 +276,7 @@ Click on `Resource Groups` on the left Blade and then on the Resource Group that
 
 
 * Step 5.4 Web App Bot
+
 Once there, you will be able to find all services created and see the type of each services. The Web App Bot is where we will work on the Chat Bot and the Channels integration. 
 Click on the `Web App Bot`, in my scenario, I called it `qna-github-test-bot`.
 
@@ -269,6 +285,7 @@ Click on the `Web App Bot`, in my scenario, I called it `qna-github-test-bot`.
 </p>
 
 * Step 5.5 Test the integration
+
 Now, your Web App Bot is ready. In order to test the integration between the Web App Bot and the QnA that you created, click on Test in Web Chat.
 
 <p align="center">
@@ -276,6 +293,7 @@ Now, your Web App Bot is ready. In order to test the integration between the Web
 </p>
 
 * Step 5.6 Test a question 
+
 Ask about the AKS or any another Azure question that you have to test your system. Ask your question on “Type your message  and send it ->
 
 <p align="center">
@@ -284,6 +302,7 @@ Ask about the AKS or any another Azure question that you have to test your syste
 
 
 * Step 5.7 Test the Integration Channels. 
+
 Click on `Channels`, under Bot management. Click on `Teams` Logo, under the Add a feature channel.
 
 <p align="center">
@@ -305,6 +324,7 @@ Work on the Terms of Service.
 </p>
 
 * Step 5.9 Connect to channels
+
 After that, the Microsoft Teams will be available at the Connect to channels. Click on the `Microsoft Teams`.
 
 <p align="center">
@@ -344,6 +364,7 @@ I will not cover these steps but basically, download the Telegram from your Mobi
 
 
 * Step 6.3 Bot Father
+
 Create a new Telegram bot using the Bot Father. See the picture below. In your Telegram, look for `BotFather`.
 
 <p align="center">
@@ -351,6 +372,7 @@ Create a new Telegram bot using the Bot Father. See the picture below. In your T
 </p>
 
 * Step 6.4 Newbot
+
 To create a new Telegram bot, send command `/newbot`.
 
 <p align="center">
@@ -358,6 +380,7 @@ To create a new Telegram bot, send command `/newbot`.
 </p>
 
 * Step 6.5 Give a name
+
 Give the Telegram bot a friendly name. In this scenario, I’ve used the name qna-github-test.
 
 <p align="center">
@@ -365,6 +388,7 @@ Give the Telegram bot a friendly name. In this scenario, I’ve used the name qn
 </p>
 
 * Step 6.6 Username
+
 Give the Telegram bot a unique username. In this scenario, I’ve used the name qna-github-test-bot
 
 <p align="center">
@@ -372,6 +396,7 @@ Give the Telegram bot a unique username. In this scenario, I’ve used the name 
 </p>
 
 * Step 6.7 Token
+
 Paste the token you copied previously into the Access Token field and click Save.
 
 <p align="center">
@@ -379,6 +404,7 @@ Paste the token you copied previously into the Access Token field and click Save
 </p>
 
 * Step 6.8 Ready to start to use your Bot using Telegram
+
 Now, you can back to your Telegram, find the room that you just created and start to chat!
 
 <p align="center">
@@ -402,6 +428,7 @@ After the Bot Framework Emulator installed, launch the Bot Framework Emulator at
 </p>
 
 * Step 7.2 Configure the Bot Framework Emulator
+
 Access the `Resource Group` that you created, access the `qna-github-test-bot` Web App Bot and copy the `Messaging endpoint` address. Save this information in a clipboard.
 
 <p align="center">
@@ -418,6 +445,7 @@ In order to have access to the key, just click on top of each paraemter.
 </p>
 
 * Step 7.3 Copy the information on the Bot Framework Emulator
+
 Now with the 3 informations in hand, back to the Framework Bot Emulator and connect your Bot.
 * `Messaging endpoint`
 * `MicrosoftAppId`
