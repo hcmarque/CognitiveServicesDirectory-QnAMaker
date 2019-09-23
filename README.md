@@ -6,8 +6,10 @@ Cognitive Services Directory using QnAMaker and Bing Search
 
 * Pre Requisite:
 
-•	Have an Azure Subscription (See here how to create one – you can start with a free subscription);
-•	Install Bot Framework Emulator version 4;
+* Have an Azure Subscription (See here how to create one – you can start with a free subscription);
+* Install Bot Framework Emulator version 4;
+* Teams Installed; (Optional)
+* Telegram; (Optional)
 
 ## Step 1: Check the Subscription
 
