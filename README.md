@@ -196,12 +196,133 @@ Now click in `Save and train` your QnA model.
   <img src="images/017.jpg" alt="drawing" width="600"/>
 </p>
 
+<p align="center">
+  <img src="images/018.jpg" alt="drawing" width="600"/>
+</p>
+
+* 4.6 Test
+Let’s test your QnA Model before to publish. Click in -> `Test` (blue button). 
+Ask about AKS to see the answer on the chat window.
+
+<p align="center">
+  <img src="images/019.jpg" alt="drawing" width="600"/>
+</p>
+
+* 4.7 Publish
+Now is time to test your environment. Click on Publish Tab and then, Publish (blue button)
+
+<p align="center">
+  <img src="images/020.jpg" alt="drawing" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/021.jpg" alt="drawing" width="600"/>
+</p>
+
+The publish process will take less then 1 minute to be done. A Success page will be displayed. Done, your QnA is ready to be consumed. 
 
 
+<p align="center">
+  <img src="images/022.jpg" alt="drawing" width="600"/>
+</p>
 
 
+## Step 5: Create your Bot
+
+* Step 5.1 Click on Create your Bot
+Click on `Create your Bot`
+
+<p align="center">
+  <img src="images/022.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.2 Bot Data 
+You will be redirect to the ms.azure.portal and click in create after to check the date there. (be sure that you have your qna and bot on the same resource group)
+For this step, we will create a Bo on the Azure Portal (Just click on the Create Bot – Really important to create from here as all parameters will be automatic populated on Azure Portal (as you can see on the picture below (as the QnA Auth Key)
 
 
+<p align="center">
+  <img src="images/023.jpg" alt="drawing" width="600"/>
+</p>
 
+Wait until the deployment is completed.
+
+<p align="center">
+  <img src="images/024.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.3 Back to Resource Group
+It’s time to back to Resource Groups in order to see what you have deployed so far. 
+Click on `Resource Groups` on the left Blade and then on the Resource Group that you created before, in this scenario, I used the name `qna-github-test`.
+
+<p align="center">
+  <img src="images/025.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* Step 5.4 Web App Bot
+Once there, you will be able to find all services created and see the type of each services. The Web App Bot is where we will work on the Chat Bot and the Channels integration. 
+Click on the `Web App Bot`, in my scenario, I called it `qna-github-test-bot`.
+
+<p align="center">
+  <img src="images/026.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.5 Test the integration
+Now, your Web App Bot is ready. In order to test the integration between the Web App Bot and the QnA that you created, click on Test in Web Chat.
+
+<p align="center">
+  <img src="images/027.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.6 Test a question 
+Ask about the AKS or any another Azure question that you have to test your system. Ask your question on “Type your message  and send it ->
+
+<p align="center">
+  <img src="images/028.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* Step 5.7 Test the Integration Channels. 
+Click on `Channels`, under Bot management. Click on `Teams` Logo, under the Add a feature channel.
+
+<p align="center">
+  <img src="images/029.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.8 Save
+
+Click in Save
+
+<p align="center">
+  <img src="images/030.jpg" alt="drawing" width="600"/>
+</p>
+
+Work on the Terms of Service. 
+
+<p align="center">
+  <img src="images/031.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 5.9 Connect to channels
+After that, the Microsoft Teams will be available at the Connect to channels. Click on the `Microsoft Teams`.
+
+<p align="center">
+  <img src="images/032.jpg" alt="drawing" width="600"/>
+</p>
+
+
+Another chat window will be opened and you will be able to see the Teams Chat to start to ask your questions.
+
+<p align="center">
+  <img src="images/033.jpg" alt="drawing" width="600"/>
+</p>
+
+In the example below, 2 questions were made. Check the answers and if is needed, back to your qnamaker home page to adjust the answer.
+
+
+<p align="center">
+  <img src="images/034.jpg" alt="drawing" width="600"/>
+</p>
 
 
