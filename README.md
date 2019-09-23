@@ -12,7 +12,7 @@ Before to dig in on the details on the QnA Bot Services, please take time to exp
 ## Step 1: Check the Subscription
 
 * 1.1 Subscription
-In this scenario, a subscription named “Visual Studio Enterprise” was created.
+In this scenario, a subscription named `Visual Studio Enterprise` was created.
 As soon as you login at your azure subscription, on the website: https://ms.portal.azure.com, click on Resource Groups (left Blade) and see that it’s a empty page (leave this as is for now)
 
 <p align="center">
@@ -22,7 +22,7 @@ As soon as you login at your azure subscription, on the website: https://ms.port
 
 ## Step 2: Access the QnA Maker
 
-* 2.1 Access the QnA Maker website
+* 2.1 Access the `QnA Maker website`
 Access the website https://www.qnamaker.ai/ using your preferable web browser 
 
 * 2.2 Login
@@ -35,14 +35,14 @@ Subscription<p align="center">
 ## Step 3: Creating a Knowledge bases
 
 * 3.1 Knowledge bases
-Click on “My Knowledge bases” and see that you have no KB (Knowledge bases) created yet.
+Click on `My Knowledge bases` and see that you have no KB (Knowledge bases) created yet.
 
 <p align="center">
   <img src="images/003.jpg" alt="drawing" width="600"/>
 </p>
 
 
-* 3.2 Click on “Create a knowledge base” Tab
+* 3.2 Click on `Create a knowledge base` Tab
 
 <p align="center">
   <img src="images/004.jpg" alt="drawing" width="600"/>
@@ -50,7 +50,7 @@ Click on “My Knowledge bases” and see that you have no KB (Knowledge bases) 
 
 
 * 3.4 Create a QnA service
-Click on “Create a QnA service” blue bottom.
+Click on `Create a QnA service` blue bottom.
 The QnA Maker API service portal makes it simple to add your existing data sources when creating a knowledge base. You can create a new QnA Maker knowledge base from the following document types:
 •	FAQ pages
 •	Products manuals
@@ -81,14 +81,14 @@ For the Azure Search pricing Tier, check this [page](https://azure.microsoft.com
 
 
 * 3.5 Check the Deployment in progress
-On the top right corner a message will appear saying “Deployment in progress” – This would take around 10 minutes to have your QnA maker done.
+On the top right corner a message will appear saying `Deployment in progress` – This would take around 10 minutes to have your QnA maker done.
 
 <p align="center">
   <img src="images/006.jpg" alt="drawing" width="600"/>
 </p>
 
 
-Click on “Deployment in progress” and wait until a full message saying “Your deployment is complete”. 
+Click on `Deployment in progress` and wait until a full message saying `Your deployment is complete`. 
 
 <p align="center">
   <img src="images/007.jpg" alt="drawing" width="600"/>
@@ -101,11 +101,56 @@ Now, back to your Resource Group to check the Resources that were created.
   <img src="images/008.jpg" alt="drawing" width="600"/>
 </p>
 
-Click on Resource Group that you created to check the resources there, which includes the Cognitive Service and Search Service.
+Click on `Resource Group` that you created to check the resources there, which includes the Cognitive Service and Search Service.
 
 <p align="center">
   <img src="images/009.jpg" alt="drawing" width="600"/>
 </p>
 
+## Step 4: Back to the QnA maker website
 
+* 4.1 Select the Azure QnA service
+Back to your QnA maker webpage (your previous browser tab) and check the Step 2. 
+Click the `Refresh` and select the `Microsoft Azure Directory`, your `Azure Subscription` (used to created the QnA Makaer on the step before) and the `Azure QnA service` that you just created.
+
+<p align="center">
+  <img src="images/010.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* 4.2 Name your KB
+The `KB` (knowledge base) name is for your reference and you can change it at anytime. In this example designed, I used the name `qna-github-test`
+
+
+<p align="center">
+  <img src="images/011.jpg" alt="drawing" width="600"/>
+</p>
+
+
+* 4.3 Populate your KB
+Extract question-and-answer pairs from an online FAQ, product manuals, or other files. Supported formats are .tsv, .pdf, .doc, .docx, .xlsx, containing questions and answers in sequence. Skip this step to add questions and answers manually after creation. The number of sources and file size you can add depends on the QnA service SKU you choose. 
+
+Enter the reference FAQ url on the Link and click `+ Add URL`. In this example, I have included 10 url’s.
+
+<p align="center">
+  <img src="images/012.jpg" alt="drawing" width="600"/>
+</p>
+
+You can add your file containing FAQ at this step as well.
+
+Please find here the url’s references used in this example.
+
+https://www.microsoft.com/en-us/software-download/faq
+https://azure.microsoft.com/en-us/pricing/faq/
+https://azure.microsoft.com/en-us/free/free-account-faq/
+https://azure.microsoft.com/en-us/free/free-account-students-faq/
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq-for-disks
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq
+https://docs.microsoft.com/en-us/azure/migrate/resources-faq
+https://docs.microsoft.com/en-us/azure/marketplace/marketplace-faq-publisher-guide
+https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-faq
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
+https://azure.microsoft.com/en-us/overview/azure-for-microsoft-software/faq/
+https://azure.microsoft.com/en-us/services/
+https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home
 
