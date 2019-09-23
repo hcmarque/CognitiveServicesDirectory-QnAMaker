@@ -1,5 +1,6 @@
 
-# Cognitive Services Directory - QnAMaker
+# Cognitive Services
+# QnAMaker
 Cognitive Services Directory using QnAMaker and Bing Search
 
 * Before to Start
