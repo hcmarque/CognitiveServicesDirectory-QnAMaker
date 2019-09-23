@@ -163,7 +163,11 @@ Click in `Create your KB` (knowledge Base).
 </p>
 
 
+As soon as you click in create, this will take few minutes to have your KB ready.
 
+<p align="center">
+  <img src="images/014.jpg" alt="drawing" width="600"/>
+</p>
 
 
 
