@@ -1,6 +1,5 @@
 
-# Cognitive Services
-# QnAMaker
+# Cognitive Services - QnAMaker
 Cognitive Services Directory using QnAMaker and Bing Search
 
 * Before to Start
@@ -170,8 +169,32 @@ As soon as you click in create, this will take few minutes to have your KB ready
 </p>
 
 
+As soon as you have created the KB, you will have access to edit the KB. As you can see in the picture below, the KB was created and is ready to be edited if is needed. 
+
+<p align="center">
+  <img src="images/015.jpg" alt="drawing" width="600"/>
+</p>
 
 
+* 4.4 Add QnA Pair
+
+For the test proposal, click in `+ Add QnA Pair`.
+
+In this example, I used the following (see the picture below to see where to edit the QnA
+
+What is Azure Kubernetes Service (AKS)?
+Azure Kubernetes Service (AKS) manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise. It also eliminates the burden of ongoing operations and maintenance by provisioning, upgrading, and scaling resources on demand, without taking your applications offline.
+
+<p align="center">
+  <img src="images/016.jpg" alt="drawing" width="600"/>
+</p>
+
+* 4.5 Save
+Now click in `Save and train` your QnA model.
+
+<p align="center">
+  <img src="images/017.jpg" alt="drawing" width="600"/>
+</p>
 
 
 
