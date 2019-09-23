@@ -6,10 +6,14 @@ Cognitive Services Directory using QnAMaker and Bing Search
 
 * Pre Requisite:
 
-* Have an Azure Subscription (See here how to create one – you can start with a free subscription);
-* Install Bot Framework Emulator version 4;
-* Teams Installed; (Optional)
-* Telegram; (Optional)
+1 - *Azure Subscription*
+
+2 - *Install Bot Framework Emulator version 4;*
+
+3 - *Teams Installed; (Optional)*
+
+4 - *Telegram; (Optional)*
+
 
 ## Step 1: Check the Subscription
 
@@ -85,6 +89,7 @@ For the Azure Search pricing Tier, check this [page](https://azure.microsoft.com
 | App service plan/Location  |  Your app service plan   |         Select an [app service plan](https://azure.microsoft.com/pricing/details/app-service/plans/) location. Your location choice can be any location listed, though it's often best to choose the same location as the bot service. |
 | Application Insights  |  On  |        Decide if you want to turn [Application Insights](https://docs.microsoft.com/en-us/bot-framework/bot-service-manage-analytics) On or Off. If you select On, you must also specify a regional location. Your location choice can be any location listed, though it's often best to choose the same location as the bot service.|
 | Microsoft App ID and password  |  Auto create App ID and password   |  Use this option if you need to manually enter a Microsoft App ID and password. Otherwise, a new Microsoft App ID and password will be created for you in the bot creation process. When creating an app registration manually for the Bot Service, please ensure that the supported account types is set to ‘Accounts in any organizational directory’ or ‘Accounts in any organizational directory and personal Microsoft accounts (e.g. Skype, Outlook.com, Xbox, etc.)’|
+
 
 
 * 3.5 Check the Deployment in progress
