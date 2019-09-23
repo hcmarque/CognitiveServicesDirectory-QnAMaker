@@ -139,18 +139,41 @@ Enter the reference FAQ url on the Link and click `+ Add URL`. In this example, 
 You can add your file containing FAQ at this step as well.
 
 Please find here the url’s references used in this example.
+* https://www.microsoft.com/en-us/software-download/faq
+* https://azure.microsoft.com/en-us/pricing/faq/
+* https://azure.microsoft.com/en-us/free/free-account-faq/
+* https://azure.microsoft.com/en-us/free/free-account-students-faq/
+* https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq-for-disks
+* https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq
+* https://docs.microsoft.com/en-us/azure/migrate/resources-faq
+* https://docs.microsoft.com/en-us/azure/marketplace/marketplace-faq-publisher-guide
+* https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-faq
+* https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
+* https://azure.microsoft.com/en-us/overview/azure-for-microsoft-software/faq/
+* https://azure.microsoft.com/en-us/services/
+* https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home
 
-https://www.microsoft.com/en-us/software-download/faq
-https://azure.microsoft.com/en-us/pricing/faq/
-https://azure.microsoft.com/en-us/free/free-account-faq/
-https://azure.microsoft.com/en-us/free/free-account-students-faq/
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq-for-disks
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq
-https://docs.microsoft.com/en-us/azure/migrate/resources-faq
-https://docs.microsoft.com/en-us/azure/marketplace/marketplace-faq-publisher-guide
-https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-faq
-https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq
-https://azure.microsoft.com/en-us/overview/azure-for-microsoft-software/faq/
-https://azure.microsoft.com/en-us/services/
-https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home
+* 4.4 Create the KB
+
+Click in `Create your KB` (knowledge Base).
+
+<p align="center">
+  <img src="images/013.jpg" alt="drawing" width="600"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
