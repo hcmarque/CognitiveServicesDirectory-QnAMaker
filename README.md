@@ -347,28 +347,28 @@ I will not cover these steps but basically, download the Telegram from your Mobi
 Create a new Telegram bot using the Bot Father. See the picture below. In your Telegram, look for `BotFather`.
 
 <p align="center">
-  <img src="images/boot01.png" alt="drawing" width="600"/>
+  <img src="images/boot01.png" alt="drawing" width="300"/>
 </p>
 
 * Step 6.4 Newbot
 To create a new Telegram bot, send command `/newbot`.
 
 <p align="center">
-  <img src="images/boot02.png" alt="drawing" width="600"/>
+  <img src="images/boot02.png" alt="drawing" width="300"/>
 </p>
 
 * Step 6.5 Give a name
 Give the Telegram bot a friendly name. In this scenario, I’ve used the name qna-github-test.
 
 <p align="center">
-  <img src="images/boot03.png" alt="drawing" width="600"/>
+  <img src="images/boot03.png" alt="drawing" width="300"/>
 </p>
 
 * Step 6.6 Username
 Give the Telegram bot a unique username. In this scenario, I’ve used the name qna-github-test-bot
 
 <p align="center">
-  <img src="images/boot04.png" alt="drawing" width="600"/>
+  <img src="images/boot04.png" alt="drawing" width="300"/>
 </p>
 
 * Step 6.7 Token
@@ -382,12 +382,13 @@ Paste the token you copied previously into the Access Token field and click Save
 Now, you can back to your Telegram, find the room that you just created and start to chat!
 
 <p align="center">
-  <img src="images/boot05.png" alt="drawing" width="600"/>
+  <img src="images/boot05.png" alt="drawing" width="300"/>
 </p>
 
 ## Step 7: Bot Framework Emulator
 
 * Step 7.1 Install the ChatBot Emulator
+
 Now, we will access the ChatBot using the Bot Framework Emulator (V4) that you have to install in your Desktop/Laptop. Find here the page to download the Bot Framework Emulator: https://github.com/Microsoft/BotFramework-Emulator
 
 After the Bot Framework Emulator installed, launch the Bot Framework Emulator at your computer and `login at Azure` using your account used to access the Azure Portal (the same used on the first step of this tutorial)
@@ -398,6 +399,38 @@ After the Bot Framework Emulator installed, launch the Bot Framework Emulator at
 
 <p align="center">
   <img src="images/038.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 7.2 Configure the Bot Framework Emulator
+Access the `Resource Group` that you created, access the `qna-github-test-bot` Web App Bot and copy the `Messaging endpoint` address. Save this information in a clipboard.
+
+<p align="center">
+  <img src="images/0385.jpg" alt="drawing" width="600"/>
+</p>
+
+Addtionally, access the `App Service Settings` under `Configurations` and copy 2 informations there (that will be used on the next step:
+* `MicrosoftAppId`
+* `MicrosoftAppPassword`
+In order to have access to the key, just click on top of each paraemter.
+
+<p align="center">
+  <img src="images/0386.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 7.3 Copy the information on the Bot Framework Emulator
+Now with the 3 informations in hand, back to the Framework Bot Emulator and connect your Bot.
+* `Messaging endpoint`
+* `MicrosoftAppId`
+* `MicrosoftAppPassword`
+
+<p align="center">
+  <img src="images/039.jpg" alt="drawing" width="600"/>
+</p>
+
+* Step 7.4 Test your Framework Bot Emulator
+
+<p align="center">
+  <img src="images/040.jpg" alt="drawing" width="600"/>
 </p>
 
 
