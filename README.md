@@ -19,7 +19,7 @@ Cognitive Services Directory using QnAMaker and Bing Search
 
 * 1.1 Subscription
 
-In this scenario, a subscription named `Visual Studio Enterprise` was created.
+In this scenario, a subscription named `Visual Studio Enterprise` was created;
 As soon as you login at your azure subscription, on the website: https://ms.portal.azure.com, click on Resource Groups (left Blade) and see that it’s a empty page (leave this as is for now)
 
 <p align="center">
