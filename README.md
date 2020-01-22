@@ -4,7 +4,7 @@ Cognitive Services Directory using QnAMaker and Bing Search
 
 * Before to Start with the details on the QnA Bot Services, please take time to explore the Azure Cognitive Services [here](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/).
 
-* Pre Requisite:
+* Pre Requisite, please find below:
 
 1 - *Azure Subscription*
 
