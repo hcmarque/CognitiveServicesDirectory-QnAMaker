@@ -6,7 +6,7 @@ Cognitive Services Directory using QnAMaker and Bing Search
 
 * Pre Requisite, please find below:
 
-1 - *Azure Subscription*;
+1 - *Azure Subscription*;;
 
 2 - *Install Bot Framework Emulator version 4;*
 
